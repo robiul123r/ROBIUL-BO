@@ -108,7 +108,7 @@ const first = numberOfOnePage * page - numberOfOnePage;
     const siu = `╭──────•◈•──────╮\n |   𝗥𝗢𝗕𝗜𝗨𝗟 𝗛𝗘𝗟𝗣 𝗖𝗠𝗗𝗦 \n |   🄲🄾🄼🄼🄰🄽🄳 🄻🄸🅂🅃       \n╰──────•◈•──────╯`;
 const text = `╭──────•◈•──────╮\n│𝖴𝖲𝖤 ${prefix}help [Name?]\n│𝖴𝖲𝖤 ${prefix}help [Page?]\n│𝖱𝖮𝖡𝖮𝖳 𝖠𝖣𝖬𝖨𝖭 : \n│𝗥𝗢𝗕𝗜𝗨𝗟 𝗛𝗘𝗟𝗣 𝗖𝗠𝗗𝗦\n│𝖳𝖮𝖳𝖠𝖫 : [${arrayInfo.length}]\n│✳️𝖯𝖠𝖦𝖤✳️ :  [${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)}]\n╰──────•◈•──────╯`; 
     var link = [
-"https://i.imgur.com/XWyG48T.jpeg"
+"https://i.imgur.com/dh45r4b.jpeg"
     ]
      var callback = () => api.sendMessage({ body: siu + "\n\n" + msg  + text, attachment: fs.createReadStream(__dirname + "/cache/loidbutter.jpeg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/loidbutter.jpeg"), event.messageID);
     return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/loidbutter.jpeg")).on("close", () => callback());
@@ -116,7 +116,7 @@ const text = `╭──────•◈•──────╮\n│𝖴𝖲�
 const leiamname = getText("moduleInfo", command.config.name, command.config.description, `${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermssion == 0) ? getText("user") : (command.config.hasPermssion == 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits);
 
   var link = [
-"https://i.imgur.com/XWyG48T.jpeg",
+"https://i.imgur.com/dh45r4b.jpeg",
   ]
     var callback = () => api.sendMessage({ body: leiamname, attachment: fs.createReadStream(__dirname + "/cache/loidbutter.jpeg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/loidbutter.jpeg"), event.messageID);
 return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/loidbutter.jpeg")).on("close", () => callback());
