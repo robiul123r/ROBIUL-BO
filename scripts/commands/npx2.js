@@ -9,13 +9,13 @@ module.exports = {
 		credits: "nayan",
 		description: "Fun",
 		category: "no prefix",
-		usages: "😒",
+		usages: "🥰",
 		cooldowns: 5,
 	},
 
 	handleEvent: async function({ api, event, client, __GLOBAL }) {
 		var { threadID, messageID } = event;
-		const content = event.body ? event.body : '';
+		const content = event.body ? event.body : '🥰';
 		const body = content.toLowerCase();
 
 		
