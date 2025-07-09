@@ -9,16 +9,15 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "nayan-bot",
-  "PREFIX": "/",
-  "react": "☠️",
+  "BOTNAME": "ROBIUL",
+  "PREFIX": "!",
   "OPERATOR": [
-    "",
-    "100000959749712"
+    "100093774930731",
+    "61554220170465"
   ],
   "ADMINBOT": [
-    "100000959749712",
-    ""
+    "100093774930731",
+    "61554220170465"
   ],
   "OWNER": ["100000959749712"], 
   "APPROVED": [],
