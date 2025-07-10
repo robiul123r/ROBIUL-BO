@@ -19,7 +19,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	if (body.indexOf(" ")==0 || body.indexOf("🕵️‍♀️")==0 || body.indexOf("😱")==0 || body.indexOf(" ")==0) {
 		var msg = {
 				body: "বুঁঝ্ঁলাৃঁম্ঁ না্ঁ বাৃঁবুঁ এ্ঁভাৃঁবে্ঁ চোৃঁখ্ঁ বৃ্ঁড়্ঁ বৃঁড়্ঁ কৃঁরে্ঁ অৃঁবাৃঁক্ঁ হ্ঁয়ে্ঁ দেৃঁখা্ঁরৃঁ কি্ঁ আৃঁছে্ঁ-🤷😑",
-				attachment: fs.createReadStream(__dirname + `/ArYan/bujlam na babu chokh.m4a`)
+				attachment: fs.createReadStream(__dirname + `/ROBIUL/bujlam na babu chokh.m4a`)
 			}
 			api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("👀", event.messageID, (err) => {}, true)
