@@ -22,5 +22,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: ROBIUL-B
+      - name: ROBIUL-BOT 
         run: npm start
